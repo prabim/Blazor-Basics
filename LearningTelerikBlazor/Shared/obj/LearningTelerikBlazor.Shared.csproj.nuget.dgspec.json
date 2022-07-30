@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\LearningTelerikBlazor.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\LearningTelerikBlazor.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\LearningTelerikBlazor.Shared.csproj",
+        "projectName": "LearningTelerikBlazor.Shared",
+        "projectPath": "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\LearningTelerikBlazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\Brabim Manandhar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\NuGet.Config",
+          "C:\\Users\\Brabim Manandhar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Brabim Manandhar\\AppData\\Roaming\\Telerik\\Updates\\telerik.ui.for.blazor.hotfix.3.4.0.trial\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

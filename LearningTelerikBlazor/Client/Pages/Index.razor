@@ -1,0 +1,59 @@
+﻿@using LearningTelerikBlazor.Shared;
+@using System.Collections.ObjectModel
+@using static Telerik.Blazor.ThemeConstants.Button
+@page "/"
+
+<secion class="form-container">
+	<TelerikForm Model="@OrderModel"
+		OnValidSubmit="@HandleValidSubmit"
+		OnInvalidSubmit="@HandleInvalidSubmit"
+		ValidationMessageType="FormValidationMessageType.Tooltip">
+		<FormValidation>
+			<TelerikValidationSummary />
+			<DataAnnotationsValidator />
+		</FormValidation>
+	</TelerikForm>
+
+	<TelerikNotification @ref="Notification"
+		Class="notification"
+		HorizontalPosition="@NotificationHorizontalPosition.Right"
+		VerticalPosition="@NotificationVerticalPosition.Top">
+	</TelerikNotification>
+
+	<div class="grid">
+		<TelerikGrid Data="Orders"
+			AutoGenerateColumns="true" 
+			Pageable="true" Sortable="true"
+			FilterMenuType="FilterMenuType.CheckBoxList"
+			FilterMode="GridFilterMode.FilterRow"/>
+	</div>
+</secion>
+@code {
+	Order OrderModel=new();
+	ObservableCollection<Order> Orders = new();
+
+	TelerikNotification Notification { get; set; }
+
+	void HandleValidSubmit()
+	{
+		Notification.Show(new NotificationModel
+		{
+			Text = "Items added to the cart. Yay!",
+			ThemeColor = ThemeColor.Success,
+			CloseAfter = 2000
+		});
+		Orders.Add(OrderModel);
+		OrderModel = new();
+	}
+
+	void HandleInvalidSubmit()
+	{
+		Notification.Show(new NotificationModel
+		{
+			Text = "Items not added to the cart. Sorry!",
+			ThemeColor = ThemeColor.Error,
+			CloseAfter = 0
+		});
+	}
+}
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "q2hK7E006Rq/+6cgt0MOJZ30q1XqEECbfcEnUCPFNajHXsuBhA9ZVK6Y4LoTqtBeijjlqGb7fWuefdSET0X63Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Brabim Manandhar\\source\\repos\\LearningTelerikBlazor\\LearningTelerikBlazor\\Shared\\LearningTelerikBlazor.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Brabim Manandhar\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

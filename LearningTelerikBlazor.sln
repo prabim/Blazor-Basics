@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningTelerikBlazor.Server", "LearningTelerikBlazor\Server\LearningTelerikBlazor.Server.csproj", "{3BB7DBA4-EDDD-45A9-8A12-0F98DA54F5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningTelerikBlazor.Client", "LearningTelerikBlazor\Client\LearningTelerikBlazor.Client.csproj", "{308C4413-BE01-4A3C-85E3-62DEDCD7ABF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningTelerikBlazor.Shared", "LearningTelerikBlazor\Shared\LearningTelerikBlazor.Shared.csproj", "{72C07988-B072-4583-BED9-EC5C1F725431}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BB7DBA4-EDDD-45A9-8A12-0F98DA54F5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB7DBA4-EDDD-45A9-8A12-0F98DA54F5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB7DBA4-EDDD-45A9-8A12-0F98DA54F5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB7DBA4-EDDD-45A9-8A12-0F98DA54F5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308C4413-BE01-4A3C-85E3-62DEDCD7ABF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308C4413-BE01-4A3C-85E3-62DEDCD7ABF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308C4413-BE01-4A3C-85E3-62DEDCD7ABF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308C4413-BE01-4A3C-85E3-62DEDCD7ABF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C07988-B072-4583-BED9-EC5C1F725431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C07988-B072-4583-BED9-EC5C1F725431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C07988-B072-4583-BED9-EC5C1F725431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C07988-B072-4583-BED9-EC5C1F725431}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD626784-A42B-40F5-A5FF-A122EC961F9F}
+	EndGlobalSection
+EndGlobal
